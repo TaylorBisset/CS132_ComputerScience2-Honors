@@ -1,2 +1,2 @@
 # CS132_ComputerScience2-Honors
-Repo consolidation for CS132-Computer Science II C++ with Honors at Everett Community College.
+This repository is a consolidation of labs from my ***CS132 - Computer Science II C++ with Honors*** class at *Everett Community College*. Labs from other repositories have been pushed to this repository as subtrees using `git subtree add` to help declutter my GitHub profile.
