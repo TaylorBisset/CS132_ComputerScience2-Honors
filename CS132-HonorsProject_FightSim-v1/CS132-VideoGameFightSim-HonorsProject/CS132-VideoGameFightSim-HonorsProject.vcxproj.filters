@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entity Header">
+      <UniqueIdentifier>{2310791d-0433-4d2d-9a5e-038ca3813e2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity Header\Character Header">
+      <UniqueIdentifier>{d1c790b5-6d2d-4adb-b264-f17ac797865e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity Header\Item Header">
+      <UniqueIdentifier>{6c290adb-9f38-435e-8edc-e68ed45fc543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Save File">
+      <UniqueIdentifier>{9bab490b-ed98-4240-b6ab-3dc033600b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item">
+      <UniqueIdentifier>{4b5e79d1-c4b1-41a0-85dc-ae4adfeea6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Armor">
+      <UniqueIdentifier>{3c65d512-f763-4a9e-83e3-0e4b75aad29c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Item\Weapon">
+      <UniqueIdentifier>{86fa3d7a-8da9-4d08-b97e-2f4f11b2552d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity Header\Item Header\Armor Header">
+      <UniqueIdentifier>{c30b2217-baa4-4093-95d0-73ef5bb892ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity Header\Item Header\Weapon Header">
+      <UniqueIdentifier>{c48f8567-ac91-46de-a925-56fed689511f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="armor.cpp">
+      <Filter>Source Files\Item\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="weapon.cpp">
+      <Filter>Source Files\Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game_functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.hpp">
+      <Filter>Header Files\Entity Header\Character Header</Filter>
+    </ClInclude>
+    <ClInclude Include="item.hpp">
+      <Filter>Header Files\Entity Header\Item Header</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.hpp">
+      <Filter>Header Files\Entity Header</Filter>
+    </ClInclude>
+    <ClInclude Include="armor.hpp">
+      <Filter>Header Files\Entity Header\Item Header\Armor Header</Filter>
+    </ClInclude>
+    <ClInclude Include="weapon.hpp">
+      <Filter>Header Files\Entity Header\Item Header\Weapon Header</Filter>
+    </ClInclude>
+    <ClInclude Include="game_functions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inventory.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shop.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="save_game.txt">
+      <Filter>Source Files\Save File</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
